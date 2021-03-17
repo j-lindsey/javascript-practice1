@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/little-purple-flowers-5815.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 50px; 
+}
+
+header {
+    border: solid black 5px;
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(216, 191, 216, 0.8);
+    border-radius: 10px;
+    font-size: x-large;
+    line-height:2;
+    font-family: 'Galada', cursive;
+
+}
+.flex:nth-child(odd){
+    color: rgb(233, 232, 232);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin: 40px;
+}
+.flex:nth-child(even){
+    color: rgb(233, 232, 232);
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 40px;
+}
+div{
+    backdrop-filter: blur(15px) brightness(1.5);
+    padding: 10px 30px;
+    margin: 0.5%;
+    font-family: 'Montserrat', sans-serif;
+    border: solid black 5px;
+    width:fit-content;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.odd{
+    border-radius: 55px 10px 55px 10px;
+}
+.even{
+    border-radius: 10px 55px 10px 55px;
+}
+
+
+button{
+    margin: 5px;
+    background-color:rgb(233, 232, 232); 
+    border-color: rgb(233, 232, 232);
+    padding: 5px;   
+
+}
+button:hover{
+    opacity: 0.8;
+}
+.btn{
+    border: none;
+    text-align: center;
+    box-shadow: none;
+}
+.odd{
+    width:30%;
+}
+h3{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+hr{
+    border: 1px solid black;
+}
